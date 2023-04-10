@@ -235,3 +235,6 @@ created by net/http.(*Server).Serve
 2023/04/10 16:27:24 main.go:22: Error* sql: no rows in result set
 2023/04/10 16:29:19 main.go:22: Error* sql: no rows in result set
 2023/04/10 16:30:28 main.go:22: Error* sql: no rows in result set
+2023/04/10 16:52:37 route_main.go:28: TODOS*** []
+2023/04/10 16:52:38 route_main.go:28: TODOS*** []
+2023/04/10 16:53:34 route_main.go:28: TODOS*** []
