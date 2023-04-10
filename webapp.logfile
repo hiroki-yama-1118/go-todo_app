@@ -216,3 +216,22 @@ created by net/http.(*Server).Serve
 2023/04/10 15:01:55 main.go:22: sql: no rows in result set
 2023/04/10 15:02:48 main.go:22: sql: no rows in result set
 2023/04/10 15:12:55 route_auth.go:44: sql: no rows in result set
+2023/04/10 15:39:48 route_auth.go:60: sql: no rows in result set
+2023/04/10 15:41:57 main.go:22: sql: no rows in result set
+2023/04/10 15:45:29 main.go:22: sql: no rows in result set
+2023/04/10 15:47:45 main.go:22: sql: no rows in result set
+2023/04/10 15:48:11 main.go:22: sql: no rows in result set
+2023/04/10 15:53:21 main.go:22: sql: no rows in result set
+2023/04/10 16:00:43 main.go:22: sql: no rows in result set
+2023/04/10 16:06:19 route_auth.go:60: sql: no rows in result set
+2023/04/10 16:08:30 main.go:22: sql: no rows in result set
+2023/04/10 16:16:38 main.go:22: sql: no rows in result set
+2023/04/10 16:18:28 main.go:22: sql: no rows in result set
+2023/04/10 16:20:18 main.go:22: sql: no rows in result set
+2023/04/10 16:22:31 main.go:22: sql: no rows in result set
+2023/04/10 16:24:28 main.go:22: sql: no rows in result set
+2023/04/10 16:25:59 main.go:22: sql: no rows in result set
+2023/04/10 16:26:33 main.go:22: sql: no rows in result set
+2023/04/10 16:27:24 main.go:22: Error* sql: no rows in result set
+2023/04/10 16:29:19 main.go:22: Error* sql: no rows in result set
+2023/04/10 16:30:28 main.go:22: Error* sql: no rows in result set

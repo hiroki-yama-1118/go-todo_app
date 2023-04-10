@@ -16,13 +16,13 @@ if err != nil {
 }
 
 // user,_ :=models.GetUserByEmail("test@test.com")
-// fmt.Println(user)
+// fmt.Println("User*",user)
 
 // session,err :=user.CreateSession()
 // if err!=nil{
-// 	log.Println(err)
+// 	log.Println("Error*",err)
 // }
-// fmt.Println(session)
+// fmt.Println("Session*",session)
 
 // valid,_ := session.CheckSession()
 // fmt.Println(valid)

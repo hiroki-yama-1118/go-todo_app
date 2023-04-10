@@ -87,9 +87,9 @@ func (u *User) CreateSession()(session Session,err error){
 	session = Session{}
 	cmd1 := `insert into sessions (uuid, email,user_id,created_at) values (?,?,?,?)`
 
-	_,err= Db.Exec(cmd1,createUUID(),u.Email,u.Email,time.Now())
+	_,err= Db.Exec(cmd1,createUUID(),u.Email,u.ID,time.Now())
 	if err !=nil{
-		log.Panicln(err)
+		log.Println(err)
 	}
 
 	cmd2 := `select id,uuid,email,user_id,created_at from sessions where user_id = ? and email = ?`
