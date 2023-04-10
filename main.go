@@ -32,4 +32,8 @@ u.Email="Test2@example.com"
 u.UpdateUser()
 u,_=models.GetUser(1)
 fmt.Println(u)
+
+u.DeleteUser()
+u,_=models.GetUser(1)
+fmt.Println(u)
 }
